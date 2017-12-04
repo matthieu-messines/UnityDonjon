@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 135499596270512388}
   m_Layer: 0
   m_Name: GroundCheck
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1994838442260278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.21, y: 8.68, z: -6.34}
+  m_LocalPosition: {x: 9.21, y: 9.39, z: -6.34}
   m_LocalScale: {x: 1, y: 1.39, z: 1}
   m_Children:
   - {fileID: 4972714831955872}
@@ -69,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1732120333098234}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.8201441, z: 0}
+  m_LocalPosition: {x: 0, y: -0.99, z: 0}
   m_LocalScale: {x: 1, y: 0.7194244, z: 1}
   m_Children: []
   m_Father: {fileID: 4176914823414322}
@@ -142,6 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d535bb40207bdb4b996c0cff2916576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pvMax: 0
+  pvCurrent: 0
 --- !u!135 &135499596270512388
 SphereCollider:
   m_ObjectHideFlags: 1
